@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Monitor load on a machine. Wites a dile named loadMon.dat
+# Monitor load on a machine. Writes a file named loadMon.dat
 # Run for about three days
 minutesToRun=`expr 24 \* 60 \* 3`
 

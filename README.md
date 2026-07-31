@@ -27,3 +27,5 @@ Current thinking is that setting
 ```
 in the wget command makes the issue tolerable, if not great.
 
+The script loadMon.sh can be used to monitor load on a machine, if that helps.
+
