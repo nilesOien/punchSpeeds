@@ -1,5 +1,5 @@
 # punchSpeeds
-July 29 test of PUNCH data download speeds. Has the following files :
+July 30 test of PUNCH data download speeds. Has the following files :
 
 ```
 punchSpeeds.sh - The script that was run to use wget to download the data
@@ -19,4 +19,11 @@ scan_file_times.output - Output of scan_file_times.py
 ```
 
 This may help debug things.
+
+Current thinking is that setting
+
+```
+--timeout=30
+```
+in the wget command makes the issue tolerable, if not great.
 
